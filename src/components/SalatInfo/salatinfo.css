@@ -1,0 +1,16 @@
+.salat-info {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://images.pexels.com/photos/1883409/pexels-photo-1883409.jpeg?cs=srgb&dl=pexels-shahbaz-akram-1883409.jpg&fm=jpg);
+    background-size: cover;
+    object-fit: cover;
+    position: relative;
+}
+.time {
+    position: absolute;
+    top:70px;
+    left: 70px;
+    color: white;
+    font-size: 120px;
+    font-weight: 600;
+}

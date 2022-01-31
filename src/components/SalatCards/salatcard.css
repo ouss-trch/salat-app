@@ -1,0 +1,65 @@
+.salat-cards {
+  width: 620px;
+  height: 200px;
+  padding: 10px;
+  background-color: rgba(184, 175, 175, 0.522);
+  background-image: linear-gradient(
+    to right,
+    rgb(78, 77, 77),
+    rgba(192, 172, 172, 0.604)
+  );
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  bottom: 100px;
+  left: 80px;
+  border-radius: 10px;
+}
+.salat {
+  background-color: rgba(255, 255, 255, 0.755);
+  width: 80px;
+  height: 160px;
+  padding: 5px;
+  display: flex;
+  margin: 5px 10px;
+  flex-direction: column;
+}
+.active {
+  background-color: rgba(247, 247, 77, 0.371);
+  width: 100px;
+  height: 180px;
+  padding: 5px;
+  display: flex;
+  border-radius: 7px;
+  margin: 10px 10px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.active > .salat-name {
+  align-items: flex-start;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: 500;
+}
+.salat-name {
+  color: black;
+  font-size: 20px;
+  align-items: flex-start;
+  margin: 5px 0 15px 5px;
+}
+.active > .salat-time {
+  margin: 0 auto;
+  font-size: 32px;
+  color: chocolate;
+}
+.salat-time {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  margin-top: 25px;
+  color: #ff6600;
+  margin-left: auto;
+  font-weight: bold;
+}
